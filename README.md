@@ -6,4 +6,4 @@ The cMUR toolbox includes the following functions:
 2.	f_MUR.m - Estimates the MUR quantity.
 3.	f_shuffling_surr.m - Assesses the statistical significance of the MUR quantity and compensates for bias based on surrogate data analysis.
 
-Additionally, a script (demo.m) is provided to simulate spike trains of length 1000, which includes inter-spike intervals (ISIs) that exhibit either mutual independence (coupling parameter p = 0) or a high degree of mutual dependence (p = 0.9). This script demonstrates the resulting MUR and its corrected values (cMUR).
+Additionally, a script (demo.m) is provided to simulate spike trains of length 1000, which includes inter-spike intervals (ISIs) that exhibit either mutual independence (coupling parameter p = 0) or a high degree of mutual dependence (p = 0.9); Please refer to Simulation 1 in the paper. This script demonstrates the resulting MUR and its corrected values (cMUR).
